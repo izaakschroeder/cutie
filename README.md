@@ -9,3 +9,6 @@ Unopinionated task queue with pluggable backends.
 ![downloads](http://img.shields.io/npm/dm/cutie.svg?style=flat)
 
 A task queue you can build out to fit your needs.
+
+Available backends:
+ * [SQS](https://www.github.com/izaakschroeder/cutie-sqs)
