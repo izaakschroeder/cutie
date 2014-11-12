@@ -33,8 +33,8 @@ queue.push({
 
 worker.start();
 
-process.on('SIGINT', function() {
-	worker.once('idle', function() {
+process.on('SIGINT', function interrupt() {
+	worker.once('idle', function done() {
 		process.exit(0);
 	});
 	worker.stop();
