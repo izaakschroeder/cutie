@@ -1,6 +1,6 @@
 {
 	"name": "cutie",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"author": "Izaak Schroeder <izaak.schroeder@gmail.com>",
 	"main": "lib/cutie.js",
 	"keywords": [ "task", "queue", "job", "worker" ],
@@ -17,7 +17,7 @@
 		"coverage": "istanbul check-coverage --statement 100 --branch 100 --function 100"
 	},
 	"dependencies": {
-		"lodash": "*"
+		
 	},
 	"devDependencies": {
 		"eslint": "*",
